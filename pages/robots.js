@@ -11,7 +11,7 @@ const Robots = (props) => {
             </Link>
             <div>
                 {console.log(props)}
-                {/* zacviti oklepaji so JS expression v reactu */}
+                {/* zaviti oklepaji so JS expression v reactu */}
                 {
                     props.robots.map(robot =>(
                         <li key={robot.id}>
